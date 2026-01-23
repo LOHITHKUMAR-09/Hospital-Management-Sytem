@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+.header {
+  margin: 20px;
+  border: 3px solid #3aa3ff;
+  border-radius: 6px;
+  background: #ead3ff;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.logo,.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: bold;
+}
+.logo-img {
+  width: 50px;        
+  height: 50px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+.search {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.outline {
+  background: #ead3ff;
+  border: 1px solid #5c2d91;
+}
+
+.danger {
+  background: red;
+  color: white;
+  border: none;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
+.main {
+  height: 450px;
+  background: linear-gradient(135deg, lightgray, lightgray);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1.2fr repeat(4, 1fr);
+  gap: 30px;
+  padding: 40px;
+  background: linear-gradient(135deg, #c08bf0, #8c43d6);
+  color:lightblue;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.footer-col h4 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-col p {
+  margin: 4px 0;
+  font-size: 13px;
+  opacity: 0.9;
+}
